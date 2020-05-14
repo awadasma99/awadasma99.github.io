@@ -14,4 +14,4 @@ Outside of tech, hobbies/interests include a variety of things: competitive gami
 
 ### Contact me
 
-[email@domain.com](mailto:awadasma99@gmail.com)
+[awadasma99@gmail.com](mailto:awadasma99@gmail.com)
