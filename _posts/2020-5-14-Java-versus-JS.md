@@ -19,7 +19,7 @@ Java and JavaScript— two programming languages that sound so similar, yet coul
 + Next, JavaScript is dynamically typed, therefore variables are known at execution time. While this does allow for faster programming, it does sacrifice catching errors early in development, as seen with Java. 
 + JavaScript is run in a web browser. There exist some technologies to run JavaScript outside of the browser, such as Node.js. 
 
-## If they're so different, why are their names so similar? 
+## If They're So Different, Why are Their Names So Similar? 
 
 The similarities in the names Java and JavaScript go back in time to 1995, when the two were first created. Java, created by Sun Microsystems, was meant to be a platform independent, portable, Object Oriented language, initially set out to be named OAK. Due to trademark issues however, the company needed to come up with another name, settling on Java. 
 
@@ -33,8 +33,20 @@ As different as they may be, Java and JavaScript do share commonalities among th
 + Both languages can be used in front-end development (JavaScript can be directly embedded into HTML; Java can be used as an applet)
 + Both languages can now be used in back-end development. With the advancements being made in Node.js, JavaScript powered servers are on the rise 
 
+## When to Consider One Over the Other 
 
+#### Java 
++ Android Apps 
++ Enterprise Software
++ Scientific Computing 
++ Big Data Analytics 
++ Hardware General Purpose Programming 
++ Server Side Technologies (Apache, JBoss, etc.) 
 
-
+#### JavaScript 
++ Dynamic Single Page Applications
++ Mobile App Development (React, Native, etc.) 
++ Front-end Technologies (jQuery, AngularJS, etc.)
++ Server Side Technologies (Node.js, MongoDB, etc.) 
 
 
