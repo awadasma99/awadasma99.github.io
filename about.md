@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Looking into experiences with different technologies. Strongest career interests include game development and web development. Ultimately looking to make a difference in the world and continously improve myself. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Previous experiences in AR/VR technologies. 
+Outside of tech, hobbies/interests include a variety of things: competitive gaming, painting/drawing, baking, and gardening. 
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:awadasma99@gmail.com)
