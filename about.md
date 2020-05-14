@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Looking into experiences with different technologies. Strongest career interests include game development and web development. Ultimately looking to make a difference in the world and continously improve myself. 
+Rising undergraduate senior looking into experiences with different technologies. Strongest career interests include game development and web development. Ultimately looking to make a difference in the world and continously improve myself in all things tech and beyond. 
 
 ### More Information
 
