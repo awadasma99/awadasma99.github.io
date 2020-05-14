@@ -23,9 +23,15 @@ Java and JavaScript— two programming languages that sound so similar, yet coul
 
 The similarities in the names Java and JavaScript go back in time to 1995, when the two were first created. Java, created by Sun Microsystems, was meant to be a platform independent, portable, Object Oriented language, initially set out to be named OAK. Due to trademark issues however, the company needed to come up with another name, settling on Java. 
 
-At the same time, Netscape, a company looking to make webpages more dynamic, was debating a name for the language aimed at web designers and non-developers. They did this by creating a scripting language with syntax similar to that of Java. As with Java, the company had a few names in mind before settling on JavaScript, which was the result of a license agreement between Sun Microsystems and Netscape. 
+At the same time, Netscape, a company looking to make webpages more dynamic, was debating a name for the language aimed at web designers and non-developers. They did this by creating a scripting language with syntax similar to that of Java. As with Java, the company had a few names in mind before settling on JavaScript (it was first called LiveScript), which was the result of a license agreement between Sun Microsystems and Netscape. 
 
 ## Similarities 
+
+As different as they may be, Java and JavaScript do share commonalities among themselves: 
+
++ Both languages utilize the Object Oriented paradigm 
++ Both languages can be used in front-end development (JavaScript can be directly embedded into HTML; Java can be used as an applet)
++ Both languages can now be used in back-end development. With the advancements being made in Node.js, JavaScript powered servers are on the rise 
 
 
 
