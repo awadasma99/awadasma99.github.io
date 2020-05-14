@@ -16,6 +16,8 @@ title: Nintendo Switch - My Thoughts On Its UI + Hardware
 ## Speed 
 
   One last notable attribute of the Switch, perhaps the most impressive, (saving the best for last), is its speed in regards to user input. Seconds after pressing the power button, the Switch turns on. Compared to other gaming consoles, such as the PS4, which can take a minute or so to turn on, this is extremely fast. In addition, system updates take only a few seconds, whereas, other gaming consoles, again, such as the PS4, would take several minutes. Picking up where you left off in a game takes mere seconds as well. The system responds extremely quickly to button presses, and everything is animated in such a way that gives the user an extremely smooth experience. 
-  
+
+## Wrapping Up 
+
 Overall, I hope this gave you some insight into my thoughts on the UI/hardware of the Nintendo Switch. I can't wait to see how the company makes advancements going forward, and can only hope that they won't follow the path of some other game systems, where attempted improvements only made the UI complex for worse. 
   
