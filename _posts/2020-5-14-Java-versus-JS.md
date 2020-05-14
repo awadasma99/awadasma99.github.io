@@ -35,7 +35,7 @@ As different as they may be, Java and JavaScript do share commonalities among th
 
 ## When to Consider One Over the Other 
 
-#### Java 
+### Java 
 + Android Apps 
 + Enterprise Software
 + Scientific Computing 
@@ -43,7 +43,7 @@ As different as they may be, Java and JavaScript do share commonalities among th
 + Hardware General Purpose Programming 
 + Server Side Technologies (Apache, JBoss, etc.) 
 
-#### JavaScript 
+### JavaScript 
 + Dynamic Single Page Applications
 + Mobile App Development (React, Native, etc.) 
 + Front-end Technologies (jQuery, AngularJS, etc.)
