@@ -52,3 +52,4 @@ If the root isn't null, we then want to traverse its left, return the root node,
 What we're doing is essentially traversing the left until we hit null, then returning the root, then traversing the right until we hit null for each subtree of the tree given.
 
 | Runtime: 0 ms | Space: 37.3 MB |
+-----------------------------------
