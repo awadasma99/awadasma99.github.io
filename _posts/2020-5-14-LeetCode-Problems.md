@@ -90,3 +90,58 @@ The rest of the code would simply be what we noted above, a comparison between t
 Runtime: 0 ms
 
 Space: 39.9 MB 
+
+## Problem 3 
+
+*Given an array where elements are sorted in ascending order, convert it to a height balanced BST.*
+
+*For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.* 
+
+        Given the sorted array: [-10,-3,0,5,9],
+
+        One possible answer is: [0,-3,9,-10,null,5], which represents the following height balanced BST:
+
+                    0
+                   / \
+                 -3   9
+                /   /
+              -10  5
+              
+It seems that recursion is a running method when it comes to binary tree problems. In this case, we're given an array of numbers, sorted, and are asked to distribute them in a way where each subtree's length is equal to or greater than/less than the depth of another by only one. 
+
+This one had me thinking for a while, but the word sorted got me thinking of a binary search. In a binary search, we repeatedly halve the input until we find a certain value. Here, we can use that thinking in a way where we halve the input, repeatedly putting each half into the left/right of a binary tree. This way, the depths between subtrees will never differ by more than one. 
+
+I created a helper method, which I used to pass the "start" and "end" points so that I could shrink the input when recursively calling the method. Just as with a binary search, the base case would be when the start field is greater than the end. 
+
+        public TreeNode sortedArrayToBSTHelper(int[] nums, int start, int end) {
+            if (start > end)
+                return null;
+        
+            int mid = (start + end) / 2;
+        
+            TreeNode n = new TreeNode(nums[mid]);
+            n.left = sortedArrayToBSTHelper(nums, start, mid-1);
+            n.right = sortedArrayToBSTHelper(nums, mid+1, end);
+        
+            return n; 
+        }
+        
+Here, I create a TreeNode, assign the lower half of the input to the left of the node, the higher half to the node, and the data of the middle value to the node itself.
+
+The output would look as follows:
+
+        [0,-10,5,null,-3,null,9]
+        
+                0 
+               / \
+             -10  5
+                \  \
+                 -3 9
+        
+        a height-balanced binary tree 
+        
+Runtime: 0 ms
+
+Space: 39.3 MB 
+                     
+                      
