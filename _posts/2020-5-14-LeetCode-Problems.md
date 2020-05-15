@@ -3,7 +3,7 @@ layout: post
 title: Working Through Some LeetCode Problems 
 ---
 
-In one of my previous posts, titled "Interview Prep," I mentioned that I had gone through a number of LeetCode problems in preparation for a technical interview. In this post, I'll go through a few of them, noting the steps I took and what I learned from them. 
+In one of my previous posts, titled "Interview Prep," I mentioned that I had gone through a number of LeetCode problems in preparation for a technical interview. In this post, I'll go through a few of them, noting the steps as I go along. 
 
 ## Problem 1 
 
