@@ -54,3 +54,37 @@ What we're doing is essentially traversing the left until we hit null, then retu
 | Runtime | Space |
 |---------|-------|
 | 0 ms    | 37.3 MB |
+
+
+## Problem 2 
+
+Given a binary tree, find its maximum depth.
+
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+        Input: [3, 9, 20, null, null, 15, 7] 
+        
+                3
+               / \
+              9   20
+                 /  \
+                15   7
+            
+        Output: 3 
+
+Another problem where recursion would make sense. Really what you're doing here or want to be doing is looking to find the longest path until you hit null from the root. You're comparing the length of the longest line of subtrees between the left and right of the given root. 
+
+Our base case is, therefore, similar to that of the last, because you stop traversing, therefore adding to the length, when you hit null: 
+
+        if (root == null)
+
+
+The rest of the code would simply be what we noted above, a comparison between the left and right subtrees' lengths: 
+
+        if (root == null)
+            return 0;
+        else
+            return Math.max(1 + maxDepth(root.left), 1 + maxDepth(root.right));
+            
+
+        
