@@ -7,7 +7,7 @@ In one of my previous posts, titled "Interview Prep," I mentioned that I had gon
 
 ## Problem 1 
 
-*Given the following TreeNode class: 
+*Given the following TreeNode class:* 
 
     public class TreeNode {
         int val;
@@ -16,7 +16,7 @@ In one of my previous posts, titled "Interview Prep," I mentioned that I had gon
         TreeNode(int x) { val = x; }
     }
     
-*Given a binary tree, return the inorder traversal of its nodes' values.
+*Given a binary tree, return the inorder traversal of its nodes' values.*
 
     Input: [1, null, 2, 3] 
     
@@ -58,9 +58,9 @@ Space: 37.3 MB
 
 ## Problem 2 
 
-*Given a binary tree, find its maximum depth.
+*Given a binary tree, find its maximum depth.*
 
-*The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+*The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.*
 
         Input: [3, 9, 20, null, null, 15, 7] 
         
