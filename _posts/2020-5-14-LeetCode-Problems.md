@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Working Through Some LeetCode Problems 
+title: Working Through Some Binary Tree LeetCode Problems 
 ---
 
-In one of my previous posts, titled "Interview Prep," I mentioned that I had gone through a number of LeetCode problems in preparation for a technical interview. In this post, I'll go through a few of them, noting the steps as I go along. 
+In one of my previous posts, titled "Interview Prep," I mentioned that I had gone through a number of LeetCode problems in preparation for a technical interview. In this post, I'll go through a few of them, particularly binary tree problems, noting the steps as I go along. 
 
 ## Problem 1 
 
