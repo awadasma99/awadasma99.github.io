@@ -55,6 +55,7 @@ Runtime: 0 ms
 
 Space: 37.3 MB
 
+----- 
 
 ## Problem 2 
 
@@ -90,6 +91,8 @@ The rest of the code would simply be what we noted above, a comparison between t
 Runtime: 0 ms
 
 Space: 39.9 MB 
+
+----- 
 
 ## Problem 3 
 
