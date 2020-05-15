@@ -51,9 +51,8 @@ If the root isn't null, we then want to traverse its left, return the root node,
 
 What we're doing is essentially traversing the left until we hit null, then returning the root, then traversing the right until we hit null for each subtree of the tree given.
 
-| Runtime | Space |
-|---------|-------|
-| 0 ms    | 37.3 MB |
+Runtime: 0 ms 
+Space: 37.3 MB
 
 
 ## Problem 2 
@@ -87,6 +86,5 @@ The rest of the code would simply be what we noted above, a comparison between t
             return Math.max(1 + maxDepth(root.left), 1 + maxDepth(root.right));
             
 
-| Runtime | Space |
-|---------|-------|
-| 0 ms | 39.9 MB |
+Runtime: 0 ms
+Space: 39.9 MB 
