@@ -87,4 +87,6 @@ The rest of the code would simply be what we noted above, a comparison between t
             return Math.max(1 + maxDepth(root.left), 1 + maxDepth(root.right));
             
 
-        
+| Runtime | Space |
+|---------|-------|
+| 0 ms | 39.9 MB |
