@@ -59,4 +59,16 @@ Recursively, it's a little trickier to think about, but if we use head recursion
 
 The time complexity's pretty much the same here, O(n), but the space complexity is definitely worse off, considering the space in memory taken for remembering each recursive call assignment— I believe it would be at O(n), where n is the size of the list. 
 
+----
+
+## Problem 2 
+
+*Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.*
+    
+    Example: 
+        Input: head = [4,5,1,9], node = 5
+        Output: [4,1,9]
+        Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function. 
+
+
 
