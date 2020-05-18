@@ -32,7 +32,7 @@ We'd first want to make it so that the beginning of the given list points to NUL
 
 At the end, we return the head of our newly reversed linked list. 
 
-This would look something like this: 
+This would look something like this, with an O(n) solution, n being the size of the list: 
         
         public ListNode reverseList(ListNode head) {
             ListNode newH = null;
@@ -45,4 +45,18 @@ This would look something like this:
             }
             return newH;
         }
+
+Recursively, it's a little trickier to think about, but if we use head recursion, we can get to the second to last node of the LinkedList by simply calling the method with the head's next as the parameter until we find the head or the head's next to be null. Then we change the references. We'd want the reference of the next node to be equal to the current node— in other words, head.next.next = head. This would look something like this: 
+
+        public ListNode reverseList(ListNode head) {
+            if (head == null || head.next == null) 
+                return head;
+            ListNode p = reverseList(head.next);
+            head.next.next = head;
+            head.next = null;
+            return p;
+        }
+
+The time complexity's pretty much the same here, O(n), but the space complexity is definitely worse off, considering the space in memory taken for remembering each recursive call assignment— I believe it would be at O(n), where n is the size of the list. 
+
 
