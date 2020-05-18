@@ -70,7 +70,11 @@ The time complexity's pretty much the same here, O(n), but the space complexity 
         Output: [4,1,9]
         Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your function. 
 
-In this problem, the definition of a singly-linked list is the same as that in the previous problem. We only have access to each the node to be deleted, the node's next, and the data of each node we have access to. With this given information in mind, what we can do is make it seem like we deleted the node. By that I mean that we copy the data of the next node into the node reference we are given (so [4, 5, 1, 9], would look like [4, 1, 1, 9] instead) and then delete that next node by changing some references. Essentially, we made it look like we deleted the node reference provided, but really we deleted its data. We'd change the references such that the node's next is equal to it's initial next's next. So, the second node would point to the third node's next, the fourth node, instead of the third node, for instance. In effect, [4, 1, 1, 9] becomes [4, 1, 9], as expected. 
+In this problem, the definition of a singly-linked list is the same as that in the previous problem. We only have access to each the node to be deleted, the node's next, and the data of each node we have access to. With this given information in mind, what we can do is make it seem like we deleted the node. 
+
+By that, I mean that we copy the data of the next node into the node reference we are given (so [4, 5, 1, 9], would look like [4, 1, 1, 9] instead) and then delete that next node by changing some references. Essentially, we made it look like we deleted the node reference provided, but really we deleted its data from the list. 
+
+We'd change the references such that the node's next is equal to it's initial next's next. So, the second node would point to the third node's next, the fourth node, instead of the third node, for instance. In effect, [4, 1, 1, 9] becomes [4, 1, 9], as expected. 
 
 The code for this is pretty simple: 
 
@@ -80,7 +84,3 @@ The code for this is pretty simple:
         }
  
 Runtime and space complexity would be O(1), since we're merely copying data and changing a single reference, using no extra space, and doing only these set of actions regardless of the input size. 
-
-
-
-
